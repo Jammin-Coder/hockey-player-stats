@@ -1,0 +1,19 @@
+Urho Vaakanainen, https://www.hockey-reference.com/players/v/vaakaur01.html
+Juuso Valimaki, https://www.hockey-reference.com/players/v/valimju01.html
+James van Riemsdyk, https://www.hockey-reference.com/players/v/vanrija01.html
+Trevor van Riemsdyk, https://www.hockey-reference.com/players/v/vanritr01.html
+Vitek Vanecek, https://www.hockey-reference.com/players/v/vanecvi01.html
+Semyon Varlamov, https://www.hockey-reference.com/players/v/varlasi01.html
+Andrei Vasilevskiy, https://www.hockey-reference.com/players/v/vasilan02.html
+Sami Vatanen, https://www.hockey-reference.com/players/v/vatansa01.html
+Frank Vatrano, https://www.hockey-reference.com/players/v/vatrafr01.html
+Veini Vehvilainen, https://www.hockey-reference.com/players/v/vehvive01.html
+Carter Verhaeghe, https://www.hockey-reference.com/players/v/verhaca01.html
+Kristian Vesalainen, https://www.hockey-reference.com/players/v/vesalkr01.html
+Jimmy Vesey, https://www.hockey-reference.com/players/v/veseyji02.html
+Gabriel Vilardi, https://www.hockey-reference.com/players/v/vilarga01.html
+Jake Virtanen, https://www.hockey-reference.com/players/v/virtaja01.html
+Marc-Edouard Vlasic, https://www.hockey-reference.com/players/v/vlasima01.html
+Alexander Volkov, https://www.hockey-reference.com/players/v/volkoal01.html
+Jakub Voracek, https://www.hockey-reference.com/players/v/voracja01.html
+Jakub Vrana, https://www.hockey-reference.com/players/v/vranaja01.html
