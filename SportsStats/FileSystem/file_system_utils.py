@@ -1,5 +1,4 @@
 import os
-import json
 from SportsStats.settings import *
 
 
@@ -16,7 +15,17 @@ def try_make_dir(name) -> None:
         print(f"Directory '{name}' already exists; using this existing directory.")
 
 
-def smart_write(path, content) -> None:
+def get_dir_files(path) -> list:
+    files = []
+    contents = os.listdir(path)
+    for item in contents:
+        item = LINKS_DIR + "/" + item
+        if os.path.isfile(item):
+            files.append(item)
+    return files
+
+
+def append(path, content) -> None:
     with open(path, "a") as f:
         f.write(content)
 
@@ -35,16 +44,7 @@ def read(path) -> str:
         return f.read()
 
 
-def read_json(path) -> dict:
-    with open(path, "r") as f:
-        return json.load(f)
-
-
-def write_json(path, new_content) -> None:
-    with open(path, "a") as f:
-        json.dump(new_content, f, indent=4)
-
-
-def reset_json_file(path) -> None:
-    del_file_content(path)
-    write(path, "{}")
+def init_data_dir():
+    try_make_dir(DATA_DIR)
+    try_make_dir(ALL_PLAYERS_DIR)
+    try_make_dir(LINKS_DIR)

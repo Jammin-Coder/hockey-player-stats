@@ -4,11 +4,13 @@ This file contains constants that are used throughout the program.
 
 HTML_PARSER = "lxml"  # HTML parser that is used by BeautifulSoup
 
+BASE_HOCKEY_URL = "https://www.hockey-reference.com/"
 
 # DIRECTORY PATHS
 DATA_DIR = "data"  # Directory where the data is stored.
-LINKS_JSON_FILE = f"{DATA_DIR}/links.json"  # Path to file where links are stored
-DATA_JSON_FILE = f"{DATA_DIR}/data.json"  # Path to file where data is stored
+LINKS_DIR = f"{DATA_DIR}/links"  # Path to file where links are stored
+ALL_PLAYERS_DIR = f"{DATA_DIR}/players"
+
 
 # Fixed URL paths
 PLAYERS_PATH = "/players/"
@@ -23,7 +25,7 @@ ALL_PLAYERS = "all_players"
 STATS_PULLOUT = "stats_pullout"
 
 # Stats table IDs
-STATS_BASIC_NHL = "stats_basic_nhl"
+STATS_BASIC_PLUS_NHL = "stats_basic_plus_nhl"
 
 # This is the name of the H1 that contains the players name on the stats page.
 NAME_ITEM_PROP = "name"

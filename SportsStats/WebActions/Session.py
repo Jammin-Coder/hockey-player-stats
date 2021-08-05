@@ -3,10 +3,10 @@ from .Soup import *
 
 
 class Session:
-  """
-  This class is used to create a web sessions,
-  make requests with the session, make soup requests.
-  """
+    """
+    This class is used to create a web sessions,
+    make requests with the session, make soup requests.
+    """
     def __init__(self):
         self.session = requests.Session()
 
